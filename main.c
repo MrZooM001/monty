@@ -26,7 +26,7 @@ file_name = argv[1];
 file_stream = fopen(file_name, "r");
 if (file_name == NULL || file_stream == NULL)
 {
-fprintf(stderr, "Error: Can't open file <%s>\n", file_name);
+fprintf(stderr, "Error: Can't open file %s\n", file_name);
 exit(EXIT_FAILURE);
 }
 
